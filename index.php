@@ -11,7 +11,6 @@ $line = trim(fgets($handle));
 $mail->isSMTP();
 $mail->SMTPAuth = true;
 $mail->SMTPSecure = 'tls';
-$mail->SMTPDebug = 1;
 $mail->Port = 587;
 if ($line == 1) {
     $mail->Host = 'smtp.gmail.com';
