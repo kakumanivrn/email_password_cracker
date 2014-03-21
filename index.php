@@ -5,7 +5,7 @@ $mail = new PHPMailer;
 
 $handle = fopen("php://stdin", "r");
 echo "1. Gmail\n2. Live/Hotmail\n";
-echo "Enter which mail you want to hack : ";
+echo "Select option (1 or 2) : ";
 $line = trim(fgets($handle));
 
 $mail->isSMTP();
