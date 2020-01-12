@@ -16,7 +16,7 @@ if ($line == 1) {
     $mail->Host = 'smtp.gmail.com';
 } else if ($line == 2) {
     $mail->Host = 'smtp.live.com';
-} else {
+} else {1
     echo "Sorry, wrong choice.\n";
     exit;
 }
